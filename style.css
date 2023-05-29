@@ -40,14 +40,14 @@ body {
    
    .cardInside {
      position: absolute;
-     background-color: #fff;
+     background-image: url('greetings.jpg');
      border: 2px solid yellowgreen;
      width: 250px;
      height:350px;
      z-index:-1;
      left:0;
      top:0;
-     box-shadow: inset 100px 20px 100px rgba(0,0,0,0.2);
+     box-shadow: inset 100px 20px 100px rgba(0,0,0,0.1);
    }
    
    .back {
@@ -70,6 +70,14 @@ body {
    
    .birthdayCard:hover .happy {
      visibility:hidden; 
+   }
+   .letter {
+    text-align: justify;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    margin-top: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
    }
    
    @keyframes blink {
